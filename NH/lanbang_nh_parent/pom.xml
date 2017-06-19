@@ -23,6 +23,7 @@
 		<module>../lanban_nh_core</module>
 		<module>../lanbang_nh_dao</module>
 		<module>../lanbang_nh_model</module>
+		<module>appDao</module>
 	</modules>
 
 	<dependencies>
