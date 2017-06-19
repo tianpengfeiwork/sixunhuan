@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        String in = "111.01.0";
+        int length =in.indexOf("2");
+        if(length == -1){
+        	System.out.println(length);
+        }
     }
 }

@@ -4,6 +4,7 @@
 		<groupId>com.sixunhuan.nh</groupId>
 		<artifactId>lanbang_nh_parent</artifactId>
 		<version>1.0.0</version>
+		<relativePath>../../NH/lanbang_nh_parent/pom.xml</relativePath>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
