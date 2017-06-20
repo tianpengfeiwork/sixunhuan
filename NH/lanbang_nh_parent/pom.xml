@@ -13,12 +13,15 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- file compile encoding -->
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-		
+
 		<spring.version>4.3.8.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
+		<jsp.version>2.3.1</jsp.version>
+		<servlet.version>3.1.0</servlet.version>
+
 	</properties>
 
-	<!-- 模块控制  -->
+	<!-- 模块控制 -->
 	<modules>
 		<module>../lanban_nh_core</module>
 		<module>../lanbang_nh_dao</module>
@@ -33,7 +36,7 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -79,7 +82,32 @@
 			<artifactId>spring-expression</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>${jsp.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet.version}</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
-	
+
 </project>
