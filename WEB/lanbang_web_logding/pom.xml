@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>com.sixunhuan.nh</groupId>
+		<artifactId>lanbang_nh_parent</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../../NH/lanbang_nh_parent/pom.xml</relativePath>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>lanbang_web_logding</artifactId>
+	<packaging>war</packaging>
+	<name>lanbang_web_logding Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	
+	<dependencies>
+	</dependencies>
+	
+	<build>
+		<finalName>lanbang_web_logding</finalName>
+	</build>
+</project>
