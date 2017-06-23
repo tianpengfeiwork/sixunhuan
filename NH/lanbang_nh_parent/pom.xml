@@ -23,9 +23,9 @@
 
 	<!-- 模块控制 -->
 	<modules>
-		 <module>../lanban_nh_core</module>
+		<module>../lanban_nh_core</module>
 		<module>../lanbang_nh_dao</module>
-		<module>../lanbang_nh_model</module> 
+		<module>../lanbang_nh_model</module>
 	</modules>
 
 	<dependencies>
@@ -107,58 +107,61 @@
 			<version>${servlet.version}</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!-- cache -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.9</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.apache.commons</groupId> <artifactId>commons-lang3</artifactId> 
+			<version>3.4</version> </dependency> -->
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.sf.flexjson</groupId>
+			<artifactId>flexjson</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
 		<plugins>
-		
-			 <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.7</version>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.7</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-					<maxmem>256M</maxmem>
-					<encoding>UTF-8</encoding>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.16</version>
-				<configuration>
-					<skipTests>false</skipTests>
-					<testFailureIgnore>true</testFailureIgnore>
-					<forkMode>once</forkMode>
-					<argLine>-Dfile.encoding=UTF-8</argLine>
-				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.surefire</groupId>
-						<artifactId>surefire-junit47</artifactId>
-						<version>2.16</version>
-					</dependency>
-					<dependency>
-						<groupId>org.powermock</groupId>
-						<artifactId>powermock-module-javaagent</artifactId>
-						<version>1.4.10</version>
-					</dependency>
-				</dependencies>
-			</plugin> 
+
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-resources-plugin</artifactId> 
+				<version>2.7</version> <configuration> <encoding>UTF-8</encoding> </configuration> 
+				</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-deploy-plugin</artifactId> 
+				<version>2.7</version> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-compiler-plugin</artifactId> <version>3.0</version> <configuration> 
+				<source>1.6</source> <target>1.6</target> <maxmem>256M</maxmem> <encoding>UTF-8</encoding> 
+				</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-surefire-plugin</artifactId> <version>2.16</version> <configuration> 
+				<skipTests>false</skipTests> <testFailureIgnore>true</testFailureIgnore> 
+				<forkMode>once</forkMode> <argLine>-Dfile.encoding=UTF-8</argLine> </configuration> 
+				<dependencies> <dependency> <groupId>org.apache.maven.surefire</groupId> 
+				<artifactId>surefire-junit47</artifactId> <version>2.16</version> </dependency> 
+				<dependency> <groupId>org.powermock</groupId> <artifactId>powermock-module-javaagent</artifactId> 
+				<version>1.4.10</version> </dependency> </dependencies> </plugin> -->
 		</plugins>
 
 	</build>

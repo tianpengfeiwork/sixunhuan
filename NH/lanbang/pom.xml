@@ -13,9 +13,9 @@
 
 	<modules>
 
-		<module>../lanbang_nh_dao</module>
+		<!-- <module>../lanbang_nh_dao</module>
 		<module>../lanbang_nh_model</module>
-		<module>../lanbang_nh_parent</module>
+		<module>../lanbang_nh_parent</module> -->
 	</modules>
 
 	<build>
