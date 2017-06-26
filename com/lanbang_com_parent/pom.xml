@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.sixunhuan.nh</groupId>
-	<artifactId>lanbang_nh_parent</artifactId>
+	<groupId>com.sixunhuan.com</groupId>
+	<artifactId>lanbang_com_parent</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -23,9 +23,7 @@
 
 	<!-- 模块控制 -->
 	<modules>
-		<module>../lanban_nh_core</module>
-		<module>../lanbang_nh_dao</module>
-		<module>../lanbang_nh_model</module>
+		
 	</modules>
 
 	<dependencies>
@@ -148,20 +146,7 @@
 	<build>
 		<plugins>
 
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-resources-plugin</artifactId> 
-				<version>2.7</version> <configuration> <encoding>UTF-8</encoding> </configuration> 
-				</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-deploy-plugin</artifactId> 
-				<version>2.7</version> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
-				<artifactId>maven-compiler-plugin</artifactId> <version>3.0</version> <configuration> 
-				<source>1.6</source> <target>1.6</target> <maxmem>256M</maxmem> <encoding>UTF-8</encoding> 
-				</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
-				<artifactId>maven-surefire-plugin</artifactId> <version>2.16</version> <configuration> 
-				<skipTests>false</skipTests> <testFailureIgnore>true</testFailureIgnore> 
-				<forkMode>once</forkMode> <argLine>-Dfile.encoding=UTF-8</argLine> </configuration> 
-				<dependencies> <dependency> <groupId>org.apache.maven.surefire</groupId> 
-				<artifactId>surefire-junit47</artifactId> <version>2.16</version> </dependency> 
-				<dependency> <groupId>org.powermock</groupId> <artifactId>powermock-module-javaagent</artifactId> 
-				<version>1.4.10</version> </dependency> </dependencies> </plugin> -->
+		
 		</plugins>
 
 	</build>
